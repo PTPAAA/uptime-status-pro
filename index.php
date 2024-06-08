@@ -1,5 +1,5 @@
 <?php
-$apiKey = 'ur1929735-475439bb41922cb93719e33c';
+$apiKey = '写你的api';
 $cacheFile = 'auth/api_cache.json';
 $cacheTime = 300; // 缓存时间秒
 
