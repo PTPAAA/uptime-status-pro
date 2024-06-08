@@ -1,5 +1,5 @@
 <?php
-$apiKey = '写你的api';
+$apiKey = '写你自己的api';
 $cacheFile = 'auth/api_cache.json';
 $cacheTime = 300; // 缓存时间秒
 
@@ -194,6 +194,7 @@ foreach ($monitors as $monitor) {
         ✔️ 所有服务正常！
     </li>
 <?php else: ?>
+<ul class="monitor-list">
     <li class="overall-status offline">
         ⚠️ 部分服务故障！
     </li>
